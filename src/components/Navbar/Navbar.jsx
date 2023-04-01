@@ -1,11 +1,16 @@
 import React from 'react';
-import { Nav } from './Navbar.elements';
+import { Nav, NavbarContainer, NavLogo, NavIcon } from './Navbar.elements';
 
 const Navbar = () => {
   return (
     <>
       <Nav>
-        cu
+        <NavbarContainer>
+          <NavLogo to='/'>
+            <NavIcon />
+            POWERTECH
+          </NavLogo>
+        </NavbarContainer>
       </Nav>
     </>
   );
