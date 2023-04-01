@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     width: 100%;
-    heigth: 90vh;
+    height: 90vh;
     position: absolute;
     top: 80px;
     left: ${ ({ click }) => (click ? 0 : '-100%') };
