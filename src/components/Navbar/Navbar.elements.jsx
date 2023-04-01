@@ -16,7 +16,7 @@ export const Nav = styled.nav`
   top: 0;
   z-index: 999;
 
-&:hover {
+  &:hover {
   color: red;
 }
 `;
@@ -25,6 +25,7 @@ export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content: space-between;
   height: 80px;
+  /* font-size: 50px; */
 
   ${Container}
 `;
@@ -40,5 +41,5 @@ export const NavLogo = styled(Link)`
 `;
 
 export const NavIcon = styled(FaMagento)`
-  margin-right: 0.5rem;
+  margin-right: 1.5rem;
 `;
