@@ -36,9 +36,9 @@ export const Button = styled.button`
   cursor: poiter;
 
   &:hover {
-    transition: all 0.3s ease-out;
+    transition: all 0.3s ease-in-out;
     background: #fff;
-    background: ${ ({ primary }) => (primary) ? 'orange' : 'purple'};
+    background: ${ ({ primary }) => (primary) ? 'orange' : '#fff'};
   }
 
   @media screen and (max-width: 960px) {

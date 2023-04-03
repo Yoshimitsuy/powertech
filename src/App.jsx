@@ -1,7 +1,9 @@
 import React from 'react';
 import GlobalStyle from './globalStyles';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import { Navbar } from './components';
+import Home from './pages/HomePage/Home';
 
 function App() {
 
@@ -9,6 +11,11 @@ function App() {
     <Router>
       <GlobalStyle />
       <Navbar />
+      
+      <Routes>
+        <Route path='/' exact element={<Home />} />
+      </Routes>
+
     </Router>
   );
 }
