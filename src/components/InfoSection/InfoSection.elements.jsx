@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-// import { Container } from '../../globalStyles';
-// import { Link } from 'react-router-dom';
 
 
 export const InfoSec = styled.div`
@@ -44,7 +42,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-  color: ${ ({ lightTopLine }) => (lightTopLine ? '#9da6b3' : '#4756f8') };
+  color: ${ ({ lightTopLine }) => (lightTopLine ? '#9da6b3' : '#da6302') };
   font-size: 18px;
   line-height: 16px;
   font-weight: 700;
@@ -65,7 +63,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: ${ ({ lightTextDesc }) => (lightTextDesc ? '#a3adbb' : '#1d2338') };
+  color: ${ ({ lightTextDesc }) => (lightTextDesc ? '#a3adbb' : '#eb5a06') };
 `;
 
 export const ImgWrapper = styled.div`

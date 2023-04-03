@@ -60,7 +60,7 @@ export const homeObjFour = {
   lightTopLine: false,
   topLine: 'topLLine', 
   lightText: true,
-  lightTextDesc: true,
+  lightTextDesc: false,
   buttonLabel: 'button button',
   description:
     'desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc ',
