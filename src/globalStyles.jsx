@@ -38,11 +38,11 @@ export const Button = styled.button`
   &:hover {
     transition: all 0.3s ease-in-out;
     background: #fff;
-    background: ${ ({ primary }) => (primary) ? 'orange' : '#fff'};
+    background: ${ ({ primary }) => (primary) ? 'violet' : 'orange'};
   }
 
   @media screen and (max-width: 960px) {
-    width: 70%;
+    width: 100%;
   }
 `;
 
