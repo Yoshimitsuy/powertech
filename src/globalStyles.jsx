@@ -12,8 +12,8 @@ const GlobalStyle = createGlobalStyle`
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
-  max-width: 1300;
-  margin-left: auto;
+  max-width: 1300px;
+  margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
   padding-left: 50px;
@@ -25,20 +25,20 @@ export const Container = styled.div`
 `;
 
 export const Button = styled.button`
-  border-radius: 4px;
-  background: ${ ({ primary }) => (primary) ? '#ff7b00' : '#ee3608'};
+  border-radius: 10px;
+  background: ${ ({ primary }) => (primary ? '#ff3c00' : '#ee3608') };
   white-space: nowrap;
-  padding: ${ ({big}) => (big ? '12px 64px' : '10px 20px')};
+  padding: ${ ({ big }) => (big ? '12px 64px' : '10px 20px') };
   color: #fff;
-  font-size: ${ ({fontBig}) => (fontBig ? '20px' : '16px')};
+  font-size: ${ ({ fontBig }) => (fontBig ? '20px' : '16px') };
   outline: none;
   border: none;
-  cursor: poiter;
+  cursor: pointer;
 
   &:hover {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-out;
     background: #fff;
-    background: ${ ({ primary }) => (primary) ? '#ff5100' : '#ff0000'};
+    background-color: ${ ({ primary }) => (primary) ? '#ff5100' : '#ff0000'};
   }
 
   @media screen and (max-width: 960px) {
