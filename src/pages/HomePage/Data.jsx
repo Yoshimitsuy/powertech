@@ -5,8 +5,12 @@ export const homeObjOne = {
   topLine: 'topLLine', 
   lightText: true,
   lightTextDesc: true,
-  buttonLabel: 'buttonLabel',
-  description: 'We Help Fodase',
-  headline: 'headline',
-  primary: true,
+  buttonLabel: 'button button',
+  description:
+    'desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc desc ',
+  headline: 'headline headline headline headline headline headline headline headline headline headline ',
+  primary: false,
+  start: '',
+  img: 'img',
+  alt: 'alt',
 };
