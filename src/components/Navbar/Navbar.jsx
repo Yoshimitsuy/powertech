@@ -45,12 +45,12 @@ const Navbar = () => {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/'>
-              <NavIcon />
+              <NavIcon/>
               POWERTECH
             </NavLogo>
 
             <MobileIcon onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <FaTimes color='black'/> : <FaBars color='black'/>}
             </MobileIcon>
 
             <NavMenu onClick={ handleClick } click={ click }>

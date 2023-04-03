@@ -1,3 +1,5 @@
+import img1 from '../../assets/img1.svg';
+
 export const homeObjOne = {
   lightBg: false,
   imgStart: '',
@@ -11,6 +13,6 @@ export const homeObjOne = {
   headline: 'headline headline headline headline headline headline headline headline headline headline ',
   primary: false,
   start: '',
-  img: 'img',
+  img: img1,
   alt: 'alt',
 };
